@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_practice/list_page.dart';
+import 'package:flutter_ui_practice/sliver_page.dart';
 import 'paging_page.dart';
 import 'tab_page.dart';
 
@@ -79,6 +80,8 @@ class _MyHomePageState extends State<MyHomePage> {
         return PagingPage();
       case 2:
         return TabPage();
+      case 3:
+        return SliverPage();
     }
   }
 }
